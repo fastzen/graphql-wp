@@ -9,7 +9,7 @@
 * License: GPL-3
 */
 namespace Mohiohio\GraphQLWP;
-
+require_once ABSPATH."/vendor/autoload.php";
 use GraphQL\GraphQL;
 use Mohiohio\WordPress\Router;
 
